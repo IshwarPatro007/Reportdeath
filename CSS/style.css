@@ -1,0 +1,69 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* background: linear-gradient(to top left, rgb(1, 84, 162), rgb(1, 84, 162)); */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 12px 55px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: rgb(1, 84, 162);
+  border: none;
+  font-weight: 500;
+}
+
+.modal-content {
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* align-items: center; */
+  border-radius: 15px;
+  padding: 10px 25px;
+}
+.modal-header {
+  margin: 0;
+}
+.close_btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: large;
+  font-weight: 600;
+  border-radius: 15px;
+}
+.jcc {
+  justify-content: center;
+}
+
+.tac {
+  text-align: center;
+}
